@@ -1,0 +1,40 @@
+.{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	align-items: center;
+	font-family: Tahoma;
+}
+.container{
+	max-width: 300px;
+	width: 100%;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: hotpink;
+}
+.input{
+	width: 100%;
+	height: 80px;
+	text-align: right;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.button{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4, 1fr);
+}
+.button button{
+	width: 100%;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+}
+.button button:active{
+	transform: scale(0.99);
+}
